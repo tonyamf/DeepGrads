@@ -6,3 +6,4 @@ bin/
 obj/
 out/
 .venv/
+.pytest_cache/
