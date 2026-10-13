@@ -1,0 +1,10 @@
+# Versions that installed and ran micrograd.ipynb / BigramMakemore.ipynb up to the first torch import (Python 3.11).
+numpy==2.4.6
+matplotlib==3.11.2
+graphviz==0.21
+jupyter
+nbconvert==7.17.2
+ipykernel==7.4.0
+# Needed by the *Makemore notebooks and micrograd cell 13. NOT installed or tested here:
+# the wheel is ~530 MB, over the 200 MB limit set for the automated run. 2.14.1 is the version PyPI offered.
+torch==2.14.1
